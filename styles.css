@@ -35,6 +35,16 @@ header nav ul li{
     font-size: 20px;
 }
 /* Section 1 styles */
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#section1 h2 {
+    font-size: 36px;
+    color: white;
+}
 #section1 .parent-div{
     display: flex;
     justify-content: space-around;
