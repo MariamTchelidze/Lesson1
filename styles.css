@@ -1,7 +1,33 @@
+/* General styles */
+a {
+    all: unset; /* Removes all default styles */
+    text-decoration: none; /* Ensures no underline */
+    color: inherit; /* Uses the parent text color */
+    cursor: pointer; /* Keeps the clickability */
+  }
+  
+
+  /* Actula styles for my site */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: rebeccapurple;
+}
+/* header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+header nav ul li{
+    list-style: none;
+    font-size: 20px;
 }
