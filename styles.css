@@ -5,16 +5,19 @@ a {
     color: inherit; /* Uses the parent text color */
     cursor: pointer; /* Keeps the clickability */
   }
-  
+  body{
+    background-color: black;
+  }
 
   /* Actula styles for my site */
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: rebeccapurple;
+    padding: 10px 50px 0 20px;
+    background-color: grey;
+    margin-bottom: 50px;
 }
 /* header nav {
     display: flex;
@@ -30,4 +33,23 @@ header nav ul {
 header nav ul li{
     list-style: none;
     font-size: 20px;
+}
+/* Section 1 styles */
+#section1 .parent-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#section1 .parent-div .image1-div,
+#section1 .parent-div .image2-div,
+#section1 .parent-div .image3-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#section1 h3,
+#section1 p {
+    color: white;
 }
