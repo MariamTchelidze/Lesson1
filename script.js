@@ -15,3 +15,10 @@ function substract (a, b){
 }
 console.log(substract(10, 5));
 console.log(substract(7, 150));
+
+
+function sum (x, y){
+    return x + y;
+}
+console.log(sum(3, 4));
+console.log(sum(23, 83));
