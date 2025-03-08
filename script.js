@@ -27,4 +27,4 @@ console.log(sum(23, 83));
 function division(s, h){
     return h / s;
 }
-console.log((8, 16));
+console.log(division(8, 16));
