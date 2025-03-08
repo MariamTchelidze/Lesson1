@@ -22,3 +22,9 @@ function sum (x, y){
 }
 console.log(sum(3, 4));
 console.log(sum(23, 83));
+
+
+function division(s, h){
+    return h / s;
+}
+console.log((8, 16));
