@@ -35,3 +35,13 @@ function multiply(g, j){
 }
 console.log(multiply(2, 45));
 console.log(multiply(5, 6));
+
+
+
+var x =7;
+function getName(){
+    console.log("Namaste Javascript");
+}
+getName(); // თუ ამას გადავიტანთ ზემოთ მაგალითად მე-40 ხაზზე კონსოლში მაინც გამოჩნდება  "Namaste Javascript"
+console.log(x);  // თუ ამნას გადავიტანთ 39 ხაზზე, მაშინ გვექნება  undefuned, 
+//ამ ორივეს გადატანა ფუნქციის დეკლარილებამდე, რა შედეგსაც იძლევა ამას ეწოდება hosting
