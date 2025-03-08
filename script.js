@@ -28,3 +28,10 @@ function division(s, h){
     return h / s;
 }
 console.log(division(8, 16));
+console.log(division(4, 32));
+
+function multiply(g, j){
+    return g * j;
+}
+console.log(multiply(2, 45));
+console.log(multiply(5, 6));
