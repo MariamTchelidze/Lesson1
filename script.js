@@ -37,8 +37,8 @@ console.log(multiply(2, 45));
 console.log(multiply(5, 6));
 
 
-getName();
-console.log(x);
+// getName();
+// console.log(x);
 
 var x =7;
 function getName(){
